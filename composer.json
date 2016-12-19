@@ -1,7 +1,7 @@
 {
-    "name": "moult/omnipay-payway",
+    "name": "andrewturner/omnipay-payway",
     "type": "library",
-    "description": "Westpac PayWay gateway for Omnipay payment processing library",
+    "description": "Westpac PayWay gateway for Omnipay payment processing library. Fork of moult/omnipay-payway",
     "keywords": [
         "gateway",
         "merchant",
@@ -15,6 +15,10 @@
     "homepage": "https://github.com/Moult/omnipay-payway",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Andrew Turner",
+            "email": "andrew@andrewturner.com.au"
+        },
         {
             "name": "Dion Moult",
             "email": "dion@thinkmoult.com"

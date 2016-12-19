@@ -21,7 +21,8 @@ class PurchaseRequest extends AbstractRequest implements RequestInterface
         $data['customer.merchant'] = $this->getMerchant();
         $data['customer.orderNumber'] = $this->getTransactionId();
         $data['customer.originalOrderNumber'] = $this->getTransactionId();
-
+        $data['customer.customerReferenceNumber'] = $this->getDescription();
+		
         $card = $this->getCard();
         $data['card.PAN'] = $card->getNumber();
         $data['card.CVN'] = $card->getCvv();
